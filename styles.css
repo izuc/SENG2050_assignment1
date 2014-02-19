@@ -1,0 +1,308 @@
+body {
+    background-color: #11b0ff;
+    font-family: Tahoma, Verdana, Arial, Sans-serif;
+}
+
+#main_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+}
+
+#head_container {
+    position: relative;
+    height: 160px;
+    width: 950px;
+}
+
+#banner {
+    position: relative;
+    height: 150px;
+    width: 950px;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#banner_shadow {
+    position: relative;
+    height: 10px;
+    width: 950px;
+    background-image: url(images/banner_shadow.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#content_container  {
+    position: relative;
+    width: 950px;
+}
+
+#body_container {
+    position: relative;
+    width: 700px;
+    float: right;
+}
+
+#body_top {
+    position: relative;
+    width: 700px;
+    height: 35px;
+    padding-left: 50px;
+    background-image: url(images/body_top.png);
+    background-repeat: no-repeat;
+}
+
+#date_time {
+    position: relative;
+    color: #FFFFFF;
+    padding-top: 5px;
+    float: right;
+    margin-right: 150px;
+}
+
+#body_repeat {
+    position: relative;
+    width: 700px;
+    padding-left: 10px;
+    background-image: url(images/body_repeat.png);
+    background-repeat: repeat-y;
+    overflow: hidden;
+}
+
+#body_footer {
+    position: relative;
+    width: 700px;
+    height: 30px;
+    background-image: url(images/body_footer.png);
+    background-repeat: no-repeat;
+}
+
+#floor_container {
+    position: relative;
+    width: 600px;
+    float: left;
+}
+
+#floor_top {
+    position: relative;
+    width: 600px;
+    height: 20px;
+    background-image: url(images/floor_top.png);
+    background-repeat: no-repeat;
+}
+
+#floor_repeat {
+    position: relative;
+    width: 600px;
+    padding-left: 10px;
+    background-image: url(images/floor_repeat.png);
+    background-repeat: repeat-y;
+}
+
+#floor_bottom {
+    position: relative;
+    width: 600px;
+    height: 20px;
+    background-image: url(images/floor_bottom.png);
+    background-repeat: no-repeat;
+}
+
+#menu_container {
+    position: relative;
+    width: 200px;
+    margin-right: 50px;
+    float: left;
+}
+
+#menu_top {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-image: url(images/menu_top.png);
+    background-repeat: no-repeat;
+}
+
+#menu_repeat {
+    position: relative;
+    width: 200px;
+    padding-left: 10px;
+    background-image: url(images/menu_repeat.png);
+    background-repeat: repeat-y;
+}
+
+#menu_footer {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-image: url(images/menu_footer.png);
+    background-repeat: no-repeat;
+}
+
+#row_labels {
+    position: relative;
+    height: 400px;
+    width: 35px;
+    background-image: url(images/row_labels.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    float: left;
+}
+
+#column_labels {
+    position: relative;
+    height: 35px;
+    width: 600px;
+    background-image: url(images/column_labels.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+#box_container {
+    position: relative;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#box_title {
+    position: relative;
+    font-size: 12pt;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+#box_header {
+    position: relative;
+    height: 40px;
+    width: 600px;
+    background-image: url(images/box_header.png);
+    background-repeat: no-repeat;
+}
+
+#box_repeat {
+    position: relative;
+    width: 600px;
+    background-image: url(images/box_repeat.png);
+    background-repeat: repeat-y;
+    padding-left: 10px;
+}
+
+#box_footer {
+    position: relative;
+    height: 40px;
+    width: 600px;
+    background-image: url(images/box_footer.png);
+    background-repeat: no-repeat;
+}
+
+#seat_info_bg {
+    position: relative;
+    height: 150px;
+    width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-left: 130px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Arial;
+    background-image: url(images/seat_info_bg.png);
+    background-repeat: no-repeat;
+}
+
+.seat_row {
+    position: relative;
+    height: 50px;
+    width: 600px;
+}
+
+.person {
+    position: relative;
+    width: 70px;
+    height: 50px;
+    background-image: url(images/person.png);
+    background-repeat: no-repeat;
+}
+
+.seat {
+    position: relative;
+    width: 70px;
+    height: 50px;
+    margin-right: 2px;
+    background-image: url(images/seat.png);
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-weight: bold;
+    float: left;
+}
+
+a.menu_main {
+    display: block;
+    width: 180px;
+    height: 25px;
+    text-decoration: none;
+    background-image: url(images/menu_main_page.png);
+    background-repeat: no-repeat;
+}
+
+a.menu_main:hover {
+    background-position: 0 -25px;
+}
+
+.booking_form p{
+    width: 300px;
+    clear: left;
+    margin: 0;
+    padding: 5px 0 8px 0;
+    padding-left: 155px;
+    border-top: 1px dashed gray;
+    height: 1%;
+}
+
+.booking_form label{
+    font-weight: bold;
+    float: left;
+    margin-left: -155px; 
+    width: 150px;
+    font-size: 11pt;
+    color: #FFFFFF;
+}
+
+.booking_form input[type="text"]{ 
+    width: 180px;
+}
+
+.booking_form textarea{
+    width: 250px;
+    height: 150px;
+}
+
+* html .threepxfix{
+    margin-left: 3px;
+}
+
+.field_label {
+    position: relative;
+    width: 100px;
+    font-weight: bold;
+    float: left;
+}
+
+.field_value {
+    position: relative;
+    width: 300px;
+    float: left;
+}
+
+.error_message {
+    position: relative;
+    border: 1px dashed #FFFFFF;
+    color: #FFFFFF;
+    width: 90%;
+    margin: auto;
+}
